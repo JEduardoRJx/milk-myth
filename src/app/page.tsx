@@ -24,12 +24,8 @@ export default async function Page() {
     }`,
   });
 
-  // console.log('PAGE: ', page);
-  // console.log('featuredBlogs: ', blogs);
-
   const extractedBlogs = blogs.data.featured_blogs.map((item) => {
     const blog = item.featured_blog.data || {};
-    console.log('blog', blog);
     return {
       title: blog.header?.[0]?.text || 'No Title',
       // title: blog.header || 'No Title',
@@ -40,8 +36,8 @@ export default async function Page() {
 
   return (
     <main className='max-w-screen-lg mx-auto my-8'>
-      <SliceZone slices={page.data.slices} components={components} />
       <FeaturedBlogs featuredBlogs={extractedBlogs} />
+      <SliceZone slices={page.data.slices} components={components} />
     </main>
   );
 }

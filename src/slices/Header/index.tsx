@@ -42,6 +42,7 @@ const Header = ({ slice }: HeaderProps): JSX.Element => {
 
   return (
     <section
+      className='pt-8'
       data-slice-type={slice.slice_type}
       data-slice-variation={slice.variation}>
       <PrismicRichText field={slice.primary.heading} components={components} />

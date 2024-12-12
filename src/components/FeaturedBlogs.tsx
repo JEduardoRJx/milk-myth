@@ -36,7 +36,6 @@ const FeaturedBlogs: React.FC<FeaturedBlogsProps> = ({ featuredBlogs }) => {
       {featuredBlogs.map((blog, index) => (
         <div key={index} className='p-4 bg-white shadow-md rounded-lg'>
           <h2 className='text-xl font-bold'>{blog.title}</h2>
-          {/* <PrismicRichText field={blog.title} components={components} /> */}
           <PrismicNextImage className='my-4' field={blog.image} alt={''} />
           <p className='mt-2'>{blog.content}</p>
         </div>

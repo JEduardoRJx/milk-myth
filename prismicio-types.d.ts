@@ -113,7 +113,14 @@ export interface HomepageDocumentDataFeaturedBlogsItem {
   featured_blog: prismic.LinkField;
 }
 
-type HomepageDocumentDataSlicesSlice = HeaderSlice;
+type HomepageDocumentDataSlicesSlice =
+  | TableSlice
+  | VideoSlice
+  | TextSlice
+  | ImageSlice
+  | H2HeaderSlice
+  | QuoteSlice
+  | HeaderSlice;
 
 /**
  * Content for Homepage documents

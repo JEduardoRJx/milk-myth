@@ -30,6 +30,24 @@
         "fieldset": "Slice Zone",
         "config": {
           "choices": {
+            "table": {
+              "type": "SharedSlice"
+            },
+            "video": {
+              "type": "SharedSlice"
+            },
+            "text": {
+              "type": "SharedSlice"
+            },
+            "image": {
+              "type": "SharedSlice"
+            },
+            "h2_header": {
+              "type": "SharedSlice"
+            },
+            "quote": {
+              "type": "SharedSlice"
+            },
             "header": {
               "type": "SharedSlice"
             }
