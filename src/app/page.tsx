@@ -28,7 +28,6 @@ export default async function Page() {
     const blog = item.featured_blog.data || {};
     return {
       title: blog.header?.[0]?.text || 'No Title',
-      // title: blog.header || 'No Title',
       content: blog.text?.[0]?.text || 'No Content',
       image: blog.image || {},
     };
