@@ -1,0 +1,109 @@
+{
+  "id": "table",
+  "type": "SharedSlice",
+  "name": "Table",
+  "description": "Table",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "table_column_headings": {
+          "type": "Group",
+          "config": {
+            "label": "Table Column Headings",
+            "repeat": true,
+            "fields": {
+              "column_1": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Column 1",
+                  "placeholder": "",
+                  "allowTargetBlank": true,
+                  "single": "paragraph"
+                }
+              },
+              "column_2": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Column 2",
+                  "placeholder": "",
+                  "allowTargetBlank": true,
+                  "single": "paragraph"
+                }
+              },
+              "column_3": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Column 3",
+                  "placeholder": "",
+                  "allowTargetBlank": true,
+                  "single": "paragraph"
+                }
+              },
+              "column_4": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Column 4",
+                  "placeholder": "",
+                  "allowTargetBlank": true,
+                  "single": "paragraph"
+                }
+              }
+            }
+          }
+        },
+        "table_rows": {
+          "type": "Group",
+          "config": {
+            "label": "Table Rows",
+            "repeat": true,
+            "fields": {
+              "column_1": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Column 1",
+                  "placeholder": "",
+                  "allowTargetBlank": true,
+                  "single": "paragraph"
+                }
+              },
+              "column_2": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Column 2",
+                  "placeholder": "",
+                  "allowTargetBlank": true,
+                  "single": "paragraph"
+                }
+              },
+              "column_3": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Column 3",
+                  "placeholder": "",
+                  "allowTargetBlank": true,
+                  "single": "paragraph"
+                }
+              },
+              "column_4": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Column 4",
+                  "placeholder": "",
+                  "allowTargetBlank": true,
+                  "single": "paragraph"
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

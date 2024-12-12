@@ -1,0 +1,28 @@
+{
+  "id": "h2_header",
+  "type": "SharedSlice",
+  "name": "H2Header",
+  "description": "H2Header",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "h2_header": {
+          "type": "StructuredText",
+          "config": {
+            "label": "h2 Header",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "heading2"
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}
